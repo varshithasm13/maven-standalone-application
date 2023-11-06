@@ -10,14 +10,14 @@ pipeline {
 
         stage('Build Code') {
             steps {
-                echo 'Building the code...'
+                echo 'Building the code v1.2.16'
                 // Add your actual build code here
             }
         }
 
         stage('Testing Code') {
             steps {
-                echo 'Running tests...'
+                echo 'Running tests'
                 // Add your actual testing commands here
             }
         }
